@@ -21,7 +21,7 @@ The endpoint is: http://localhost:8080/rest/calculate/doubleOf/10
 * payara-micro
     
    ``mvn clean install``
-        
+   
    ``java -jar payara-microprofile-<version>.jar --deploy target/javaee.war --outputUberJar javaee.jar``
    
    ``java -jar javaee.jar``
