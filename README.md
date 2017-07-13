@@ -5,7 +5,7 @@
 
 * Java 8 JDK
 * Maven
-* Your favorite IDE: Eclipse, IntelliJ, Netbeans
+* IDE: Eclipse, IntelliJ, Netbeans
 * A JavaEE application server: Wildfly, Payara, Glassfish, Apache TomEE
   
 ## Run sample
