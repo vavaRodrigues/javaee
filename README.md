@@ -31,6 +31,7 @@ http://[hostname]:8080/javaee
 'javaee' REST Endpoints
 
 >GET	/javaee/rest/calculate/doubleOf/{number}
+
 >GET	/javaee/rest/hello
 
 
