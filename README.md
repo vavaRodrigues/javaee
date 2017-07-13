@@ -1,6 +1,13 @@
 # Java EE 7 Samples
   The project will consist  of a simple project with JAX-RS and CDI
   
+## To follow the example presented here you will need:
+
+* Java 8 JDK
+* Maven
+* Your favorite IDE: Eclipse, IntelliJ, Netbeans
+* A JavaEE application server: Wildfly, Payara, Glassfish, Apache TomEE
+  
 ## Run sample
 
 * Build the sample that you want to run as
