@@ -29,8 +29,9 @@ The endpoint is: http://localhost:8080/rest/calculate/doubleOf/10
 http://[hostname]:8080/javaee
 
 'javaee' REST Endpoints
-GET	/javaee/rest/calculate/doubleOf/{number}
-GET	/javaee/rest/hello
+
+>GET	/javaee/rest/calculate/doubleOf/{number}
+>GET	/javaee/rest/hello
 
 
   
