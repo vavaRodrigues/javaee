@@ -1,5 +1,5 @@
 # Java EE 7 Samples
-  The project will consist  of a simple project with JAX-RS and CDI
+  The project consist of a simple project with JAX-RS and CDI
   
 ## To follow the example presented here you will need:
 
