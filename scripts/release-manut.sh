@@ -50,8 +50,16 @@ echo "[RELEASE] Alterando a versao da master para a versao de manutencao $NEW_MA
 
 mvn -q versions:set -DnewVersion=$NEW_MANUT_VERSION -DgenerateBackupPoms=false
 mvn -q -f pom.xml versions:set -DnewVersion=$NEW_MANUT_VERSION -DgenerateBackupPoms=false
-git add . 
+git add .
 git commit -m "Release $NEW_VERSION" -q
 git push origin master -q
+
+echo "Fazendo merge da develop na master"
+
+git checkout develop -q
+git pull origin develop -q
+git merge -X ours master
+
+echo "Merge feito!"
 
 echo [RELEASE] Release gerado com sucesso :D
