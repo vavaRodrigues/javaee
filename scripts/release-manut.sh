@@ -54,12 +54,12 @@ git add .
 git commit -m "Release $NEW_VERSION" -q
 git push origin master -q
 
-echo "Fazendo merge da develop na master"
+echo "[RELEASE] Fazendo merge da develop na master"
 
 git checkout develop -q
 git pull origin develop -q
 git merge -X ours master
 
-echo "Merge feito!"
+echo "[RELEASE] Merge feito!"
 
-echo [RELEASE] Release gerado com sucesso :D
+echo "[RELEASE] Release gerado com sucesso :D"
